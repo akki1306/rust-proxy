@@ -1,0 +1,28 @@
+[package]
+name = "rust-proxy"
+version = "0.1.0"
+edition = "2021"
+
+
+[[bin]]
+name="proxy"
+path="src/proxy.rs"
+
+[[bin]]
+name="command_line"
+path= "src/cli.rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tokio = { version = "1.21.2", features = ["full"] }
+dns-lookup = "1.0.8"
+reqwest = {version = "0.11.12", features = ["default"]}
+
+[dependencies.uuid]
+version = "1.2.1"
+features = [
+    "v4",                # Lets you generate random UUIDs
+    "fast-rng",          # Use a faster (but still sufficiently random) RNG
+    "macro-diagnostics", # Enable better diagnostics for compile-time UUIDs
+]
