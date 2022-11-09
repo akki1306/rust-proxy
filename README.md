@@ -13,7 +13,7 @@ This is a simple proxy server implementation in rust using tokio library. It sup
 2. Implement caching
 3. Add new blocked site without server restarts.
 
-###Libraries used: 
+### Libraries used: 
 
 1. tokio
 2. dns-lookup
