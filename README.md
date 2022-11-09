@@ -1,6 +1,6 @@
 # Proxy server
 
-This is a simple proxy server implementation in rust using tokio library. It supports following features: 
+This is a simple http proxy server implementation in rust using tokio library. It supports following features: 
 
 1. Support for HTTPS.
 2. Block configured sites (in a pre-defined txt file).
