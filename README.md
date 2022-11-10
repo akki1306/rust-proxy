@@ -18,3 +18,7 @@ This is a simple http proxy server implementation in rust using tokio library. I
 1. tokio
 2. dns-lookup
 3. reqwest
+
+## License
+
+This software is open sourced under [Apache License Version 2.0](https://github.com/akki1306/rust-proxy/blob/1.0/LICENSE.txt)
